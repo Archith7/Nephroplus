@@ -1,0 +1,6 @@
+{
+  "success": false,
+  "error": "Ollama API error: HTTP 404",
+  "raw_response": "{\"error\":\"model 'llama3.2:3b' not found\"}",
+  "status_code": 404
+}
