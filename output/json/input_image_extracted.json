@@ -1,0 +1,127 @@
+{
+  "hospital_info": {
+    "name": "AK Health Quotient India Pvt. Ltd",
+    "address": "E-117, Kalkaji, New Delhi-11001",
+    "phone": "+91 11 264 44 53",
+    "website": "www.healthquotientindia.com"
+  },
+  "patient_info": {
+    "name": "Mr. SAMIR KUMAR SINGH",
+    "age": 37,
+    "gender": "Male",
+    "lab_id": "10189704",
+    "collection_date_time": "08/09/2018 09:00",
+    "client_code": "UNITED HEALTH CARE"
+  },
+  "doctor_info": {
+    "referring_doctor": "SBILIFE INSURANCE CO. LTD.",
+    "consultant_pathologist": "AK Health Quotient India Pvt. Ltd. E-117, Kal Dethi-116019",
+    "reporting_terms_and_conditions": "The tests with an* are not accredited by NABL."
+  },
+  "report_info": {
+    "reference_laboratory": true,
+    "lab_type": "NABL Accredited Pathology Laboratory",
+    "panel": [
+      "CGHS",
+      "DGEHS",
+      "MCD",
+      "DDA"
+    ],
+    "date": "08/09/2018"
+  },
+  "test_results": [
+    {
+      "test_name": "SODIUM Serum",
+      "result_value": 1412,
+      "reference_range": [
+        135.0,
+        155.0
+      ],
+      "unit": "meq/L",
+      "status": "Abnormal"
+    },
+    {
+      "test_name": "POTASSIUM Serum",
+      "result_value": 44,
+      "reference_range": [
+        "Jon selective Electrode"
+      ],
+      "unit": "meq/L",
+      "status": "Abnormal"
+    },
+    {
+      "test_name": "CALCIUM Serum",
+      "result_value": 96,
+      "reference_range": [
+        8.8,
+        10.2
+      ],
+      "unit": "mg/dl",
+      "status": "Normal"
+    },
+    {
+      "test_name": "ARSENAZO metliod",
+      "result_value": null,
+      "reference_range": [],
+      "unit": null,
+      "status": null
+    },
+    {
+      "test_name": "LIVER FUNCTION TEST TOTAL BILIRUBIN Serum",
+      "result_value": 0.36,
+      "reference_range": [
+        null,
+        null
+      ],
+      "unit": "mg/dl",
+      "status": "Normal"
+    },
+    {
+      "test_name": "CONJUGATED (D. Bilirubin) Serum",
+      "result_value": 0.15,
+      "reference_range": [
+        0.25,
+        null
+      ],
+      "unit": "mg/dl",
+      "status": "Normal"
+    },
+    {
+      "test_name": "UNCONJUGATED (LD.Bilirubin) Serum",
+      "result_value": 0.21,
+      "reference_range": [
+        0.1,
+        0.7
+      ],
+      "unit": "mg/dl",
+      "status": "Abnormal"
+    },
+    {
+      "test_name": "ALKALINE PHOSPHATASE serum",
+      "result_value": 188.0,
+      "reference_range": [
+        80.0,
+        306.0
+      ],
+      "unit": "U/L",
+      "status": "Abnormal"
+    }
+  ],
+  "additional_info": [
+    {
+      "comment": "in haemolytic jaundice the increase in indirect bilirubin is greatest."
+    },
+    {
+      "comment": "jaundice the Increase in direct bilirubin is more pronounced."
+    },
+    {
+      "comment": "After administration of hepatotoxic drugs s.bilirubin levels may also increased, Serum 32.5 U/L"
+    }
+  ],
+  "_metadata": {
+    "source_image": "input_image.jpeg",
+    "extraction_method": "tesseract_ollama_deepseek",
+    "processing_timestamp": "2025-06-25T17:37:08.643679",
+    "model_used": "llama3.2:3b"
+  }
+}

@@ -21,7 +21,7 @@ pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tessera
 
 
 # ====== CONFIGURATION VARIABLES ======
-INPUT_FOLDER = "./input_images"  # Folder containing medical report images
+INPUT_FOLDER = "./hackathon_input_image"  # Folder containing medical report images
 OUTPUT_FOLDER = "./output"       # Where to save results
 MAX_IMAGES = 0                   # 0 = process all images, else limit to this number
 OLLAMA_BASE_URL = "http://localhost:11434"  # Default Ollama URL
@@ -188,7 +188,7 @@ Return ONLY the JSON structure, no additional text or explanations."""
             response = requests.post(
                 f"{self.ollama_url}/api/generate",
                 json=request_data,
-                timeout=120
+                timeout=300
             )
             
             if DEBUG_MODE:

@@ -1,6 +1,5 @@
 {
   "success": false,
-  "error": "Ollama API error: HTTP 404",
-  "raw_response": "{\"error\":\"model 'llama3.2:3b' not found\"}",
-  "status_code": 404
+  "error": "Ollama request error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)",
+  "raw_response": null
 }
