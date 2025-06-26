@@ -16,7 +16,7 @@ import numpy as np
 import cv2
 from paddleocr import PaddleOCR
 # --------------- CONFIGURATION ---------------
-GEMINI_API_KEY = "AIzaSyCGOjfbAUhLNph07Otueu6G0srKgRccq98"
+GEMINI_API_KEY = "AIzaSyAAPOvYkR2jVEj6s7cYZlCbPhzD7tdTZrk"
 DB_FILE = "C:/Users/archi/Desktop/hackday/outputs/all_results.json"
 
 # --------------- LOGGER SETUP ---------------
@@ -146,4 +146,3 @@ st.sidebar.title("ℹ️ Info")
 st.sidebar.write("Database File Used:")
 st.sidebar.code(DB_FILE)
 st.sidebar.write("API Key (Gemini): Set internally for testing.")
-
